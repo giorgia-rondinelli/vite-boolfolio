@@ -1,10 +1,10 @@
 <script >
-import Header from'./components/partials/Header.vue'
+
+
 
 export default{
   components:{
-    Header
-    
+   
 
   },
   data(){
@@ -18,12 +18,9 @@ export default{
 </script>
 
 <template>
-  <Header />
-  <div class="container">
-    <div><router-view></router-view></div>
-  </div>
+  <h1>Tecnologie</h1>
+ 
   
-
   
 </template>
 
